@@ -100,8 +100,7 @@ h2.fw-bold {
 }
 
 .Tinpetslogo {
-  height: 400px;
-  object-fit: cover;
+  
   border-radius: 20px;
   border: 10px dashed white;
   padding: 10px;
