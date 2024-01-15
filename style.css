@@ -56,9 +56,10 @@
     font-weight: bold;
   }
 
-  p {
-    font-size: 1.6rem;
-  }
+ p.Pword {
+  font-size: 1.6rem;
+ }
+
 
 
 
@@ -92,12 +93,7 @@ h2.fw-bold {
 
 
 
-.logoskill {
-  width: 300px; 
-  height: 300px; 
-  object-fit: cover;
-  
-}
+
 
 .Tinpetslogo {
   
@@ -222,3 +218,14 @@ li a:hover{
   
 }
 
+p {
+  font-size: 1.6rem;
+}
+
+@media(max-width:991px){
+  h2.h2word {font-size: 2rem;}
+  p {font-size: 1rem !important;}
+  h2.fw-bold {font-size: 2rem;}
+  h1.fw-bold {font-size: 2rem;}
+
+ } 
